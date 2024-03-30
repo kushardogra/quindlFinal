@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&display=swap");
+
+.footer {
+  background-color: black;
+  color: #fefefe;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer .heading {
+  color: #fefefe;
+  max-width: 1010px;
+  width: 90%;
+  text-transform: uppercase;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  font-family: "Lato", sans-serif;
+}
+
+.footer .content {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+}
+
+.footer .content p {
+  margin-bottom: 1.3rem;
+  font-family: "Lato", sans-serif;
+}
+
+.footer .content a {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  color: #fefefe;
+  transition: all 0.3s;
+}
+
+.footer .content a:hover {
+  color: #eb3c59;
+}
+
+.footer .content h4 {
+  margin-bottom: 1.3rem;
+  font-family: "Lato", sans-serif;
+
+  font-size: 19px;
+}
+
+footer {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+footer hr {
+  margin: 2rem 0;
+}
+.social{
+  color: white;
+  font-size: 30px;
+  margin-left: 5px;
+}
+.social:hover{
+  color: #eb3c59
+}
+.footer h4{
+  color: #eb3c59;
+}
+
+@media (max-width: 767px) {
+  .footer .content {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .footer {
+    position: unset;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .footer .content,
+  .footer {
+    font-size: 14px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .footer {
+    position: unset;
+  }
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" href="./images/Icon.png" type="image/png" sizes="16x16">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/bia.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <title>Quindl | Contact Us</title>
+    </head>
+    <body>
+      <nav>
+        <div class="logo">
+          <a href="index.html"><img src="./images/home_page/Logo.png" alt=""></a>
+        </div>
+        <div class="toggle">
+          <a><ion-icon name="menu-outline"></ion-icon></a>
+        </div>
+        <ul class="menu">
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+          $(function(){
+            $(".toggle").on("click", function(){
+              if($(".menu").hasClass("active")){
+                $(".menu").removeClass("active");
+                $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+              }else{
+                $(".menu").addClass("active");
+                $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>")
+              }
+            })
+          })
+        </script>
+      </nav>
+    <!--Form start-->
+    <!--Image Container End-->
+<br>
+    <div class="contact_text_container">
+      <span>WHAT CAN WE DO FOR YOU</span>
+    </div>
+
+    <!--Form start-->
+    <div class="contact">
+      <div class="contact_left">
+          <div class="contact-image">
+              <img src="./images/contact/contact.jpeg" alt="">
+          </div>
+      </div>
+      <div class="vline"></div>
+      <div class="contact_right">
+          <div class="contact_details">
+              <div class="address details">
+                  <ion-icon name="map-outline"></ion-icon>
+                  <div class="text-one">Coimbatore, Tamil Nadu, India</div>
+              </div>
+              <div class="phone details">
+                  <ion-icon name="call-outline"></ion-icon> <br>
+                  <a href="tel:+919994916848" class="text-one">+91 9994916848</a>
+              </div>
+              <div class="email details">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  <br>
+                  <a href="mailto:info@quindl.com" class="text-one">info@quindl.com</a>
+              </div>
+          </div>
+          <div class="contact_form">
+              <form action="https://api.web3forms.com/submit" method="POST">
+                  <input type="hidden" name="access_key" value="856daefa-6b7b-405d-ae79-33998c9a975c">
+                  <div class="input-box">
+                      <input type="text" placeholder="Enter Your Name" name="name">
+                  </div>
+                  <div class="input-box">
+                      <input type="text" placeholder="Enter Your Email" name="email">
+                  </div>
+                  <div class="input-box message-box">
+                      <textarea name="message" placeholder="Enter Your Message" cols="30" rows="10"></textarea>
+                  </div>
+                  <div class="button">
+                      <input type="submit" value="SEND">
+                  </div>
+              </form>
+          </div>
+      </div>
+
+  </div>
+      <!--FOOTER-->
+      <div class="footer">
+        <div class="content">
+          <div class="services">
+            <h4>Services</h4>
+            <p><a href="services.html">Acceerate</a></p>
+            <p><a href="services.html">Assure</a></p>
+            <p><a href="services.html">Data Engineering and Processing</a></p>
+            <p><a href="services.html">Experience</a></p>
+            <p><a href="services.html">Innovate</a></p>
+            <p><a href="services.html">Business Process Management</a></p>
+          </div>
+          <div class="social-media">
+            <h4>Social</h4>
+            <p>
+              <a href="#"><ion-icon name="logo-linkedin" class="social"></ion-icon></a>
+              <a href="#"><ion-icon name="logo-twitter" class="social"></ion-icon></a>
+              <a href="https://www.facebook.com/codewithfaraz"
+                ><ion-icon name="logo-facebook" class="social"></ion-icon></a>
+              <a href="https://www.instagram.com/codewithfaraz"
+                ><ion-icon name="logo-instagram" class="social"></ion-icon></a>             
+            </p>
+          </div>
+          <div class="links">
+            <h4>Quick links</h4>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Contact</a></p>
+          </div>
+          <div class="details">
+            <h4 class="address">Address</h4>
+            <p>
+            B-5, Vivekanandha nagar, 4th street, <br>Indira Garden Road, <br>Coimbatore, Tamil Nadu 641015
+  
+            </p>
+            <h4 class="mobile">Mobile</h4>
+            <p><a href="tel:+919994916848">+91 9994916848</a> <br>
+              <a href="tel:+919488990998">+91 9488990998</a></p>
+              <h4 class="mail">Email</h4>
+              <p><a href="mailto:bharathraj.m@quindl.com">bharathraj.m@quindl.com</a> <br>
+                <a href="mailto:shrivathsan@quindl.com">shrivathsan@quindl.com</a></p>
+            </div>
+        </div>
+        <footer>
+          <hr />
+          © 2023 Quindl Technologies Pvt Ltd.
+        </footer>
+      </div>
+  </body>
+  <script src="./java/slider.js"></script>
+  <script src="./java/marquee.js"></script>
+  <script src="./java/commitment.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  </html>
+</html>

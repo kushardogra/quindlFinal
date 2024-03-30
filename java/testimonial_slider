@@ -1,0 +1,14 @@
+const bc = document.querySelector(".bc");
+const fw = document.querySelector(".fw");
+
+const trck = document.querySelector(".trck");
+
+const carouselWidth = document.querySelector(".container").offsetWidth;
+
+fw.addEventListener("click", () => {
+  trck.style.transform = `translateX(-${carouselWidth}px)`;
+});
+
+bc.addEventListener("click", () => {
+  trck.style.transform = `translateX(-${0}px)`;
+});

@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./images/Icon.png" type="image/png" sizes="16x16">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/home_page.css">
+    <link rel="stylesheet" href="./css/bia.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+ 
+    <title>Quindl | Home</title>
+</head>
+<body>
+    <!--Navbar-->
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="./images/home_page/Logo.png" alt=""></a>
+      </div>
+      <div class="toggle">
+        <a ><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
+      <ul class="menu">
+        <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html" class="right">Contact Us</a></li>
+      </ul>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      <script>
+        $(function(){
+          $(".toggle").on("click", function(){
+            if($(".menu").hasClass("active")){
+              $(".menu").removeClass("active");
+              $(this).find("a").html("<ion-icon name='menu-outline'></ion-icon>");
+            }else{
+              $(".menu").addClass("active");
+              $(this).find("a").html("<ion-icon name='close-outline'></ion-icon>")
+            }
+          })
+        })
+      </script>
+    </nav>
+    <!--Moto Slide-->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img class="slide_image" src="./images/home_page/h1a.jpg" style="width:100%">
+            <div class="text">Insights. Ideas. Inspiration.</div>
+        </div>
+        <div class="mySlides fade">
+            <img class="slide_image" src="./images/home_page/h1b.jpg" style="width:100%">
+            <div class="text">Building on Belief</div>
+        </div>
+        <div class="mySlides fade">
+            <img class="slide_image" src="./images/home_page/h1c.jpg" style="width:100%">
+            <div class="text">Make life easier with a little help from our technology.</div>
+        </div>
+    </div>
+    <!--First Slide-->
+    <div class="change_container">
+        <div class="change_wrapper">
+          <div class="change_heading">
+            <span> THE NEXT </span>
+      
+          </div>
+          <div class="change_sub">
+            <span>We bring you powerful advantages to navigate your digital transformation</span>
+          </div>
+          <div class="change_text">
+            <span>
+              Unlock compelling advantages for your digital transformation journey. Our solutions empower innovation, ensuring seamless navigation towards strategic success
+            </span>
+          </div>
+        </div>
+      </div>
+    <!--Meet Our Client-->
+    <div class="meet_our_clients">
+        <div class="marquee_heading">
+          <span> MEET OUR CLIENTS </span>
+        </div>
+        <div class="marquee">
+          <ul class="marquee-content">
+            <li><img src="./images/home_page/meet_our_client/athire-logo.PNG" alt="" /></li>
+            <li><img src="./images/home_page/meet_our_client/cm.png" alt=""/></li>
+            <li><img src="./images/home_page/meet_our_client/jk.png" alt=""></li>
+            <li><img src="./images/home_page/meet_our_client/mbclogob.png" alt="" /></li>
+            <li><img src="./images/home_page/meet_our_client/tw.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    <!-- Our Commitment -->
+<h1 class="hhh">OUR COMMITMENT</h1>
+    <div class="commitment_container">
+      <div class="carousel">
+        <div class="slider">
+          <section>
+            <div class="left">
+              <div class="commitment_content" >
+                <div class="vline"></div>
+                <div class="commitment_text">
+                  <span>
+                    <H5>THINK WITH QUINDL</H5>
+                    <p>Shaping tomorrow's tech innovations as we ideate the future, together.</p> 
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <img
+                src="./images/home_page/h6.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+          <section>
+            <div class="left">
+           
+              <div class="commitment_content">
+                <div class="vline"></div>
+                <div class="commitment_text">
+                  <span>
+                    <H5>DIGITAL CORE CAPABILITIES</H5>
+                    <p>Build vital capabilities to deliver digital outcomes.</p> 
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <img
+                src="./images/home_page/h7.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+          <section>
+            <div class="left">
+              <div class="commitment_content">
+                <div class="vline"></div>
+                <div class="commitment_text">
+                  <span>
+                    <h5> EMPOWERING TALENT</h5>
+                    <p>Adopt accelerators to evolve your way of working.</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <img
+                src="./images/home_page/h8.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+          <section>
+            <div class="left">
+              <div class="commitment_content">
+                <div class="vline"></div>
+                <div class="commitment_text">
+                  <span>
+                    <h5> EMPOWERING TALENT</h5>
+                    <p>                    Embrace the talent revolution to remain relevant in the future.
+                    </p>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <img
+                src="./images/home_page/h9.jpg"
+                alt=""
+              />
+            </div>
+          </section>
+          
+        </div>
+        <div class="control">
+          <span class="arrow prev"
+            ><ion-icon name="chevron-back-sharp"></ion-icon></span
+          >
+          <span class="arrow next"
+            ><ion-icon name="chevron-forward-sharp"></ion-icon></span>
+        </div>
+      </div>
+    </div>
+    <!--Testimonial-->
+    <div class="test">
+      <h1>TESTIMONIAL</h1>
+    <div class="demo">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div id="testimonial-slider" class="owl-carousel">
+                      <div class="testimonial">
+                        <figure class="snip1390" >
+                          <img src="./images/home_page/meet_our_client/athire-logo.png" alt="profile-sample3" class="profile" />
+                          <figcaption>
+                            <h2>Athire</h2>
+                            <h4>UX Design</h4>
+                            <blockquote>Quindl has been a game-changer for our fashion rental platform. Their tech solutions have streamlined our processes, making it a breeze for customers to find and rent their dream outfit. We couldn't be happier with the results.</blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="testimonial">
+                        <figure class="snip1390" >
+                          <img src="./images/home_page/meet_our_client/cm.png" alt="profile-sample3" class="profile" />
+                          <figcaption>
+                            <h2>Coffee Mate</h2>
+                            <h4>UX Design</h4>
+                            <blockquote>Quindl has been our go-to for tech solutions for our coffee cafe franchise. Their expertise has helped us brew up a better experience for our customers, from ordering to enjoying their cuppa. Quindl's dedication to our success is truly appreciated.</blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="testimonial">
+                        <figure class="snip1390" >
+                          <img src="./images/home_page/meet_our_client/jk.png" alt="profile-sample3" class="profile" />
+                          <figcaption>
+                            <h2>Jersey Kulter</h2>
+                            <h4>UX Design</h4>
+                            <blockquote>Choosing Quindl was a total win for our sports fashion store. Their tech smarts gave our online shop a real edge, making it easier for customers to find their perfect fit. Quindl's professionalism and expertise made all the difference.</blockquote>
+                          </figcaption>
+                        </figure>
+                      </div>
+                      <div class="testimonial">
+                        <figure class="snip1390" >
+                          <img src="./images/home_page/meet_our_client/mbclogob.png" alt="profile-sample3" class="profile" />
+                          <figcaption>
+                            <h2>Marden Basketball Centre</h2>
+                            <h4>UX Design</h4>
+                            <blockquote>Quindl has been a real game-changer for our sports complex. Their tech know-how has helped us run our basketball leagues smoother than ever before. From managing schedules to boosting engagement, their team's innovation has truly stepped up our game.</blockquote>
+                          </figcaption>
+                        </figure>
+                    </div>
+                    <div class="testimonial">
+                      <figure class="snip1390" >
+                        <img src="./images/home_page/meet_our_client/tw.png" alt="profile-sample3" class="profile" />
+                        <figcaption>
+                          <h2>TaxiWala</h2>
+                          <h4>UX Design</h4>
+                          <blockquote>We're stoked with the service from Quindl. Their tech advice has been spot-on, helping us fine-tune our cab app for a smoother ride every time. Quindl knows their stuff and delivers results that matter.</blockquote>
+                        </figcaption>
+                      </figure>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <!--Future Commitment-->
+    <div class="future_container">
+      <div class="f_left">
+        <img src="./images/home_page/pexels-fauxels-3182812-scaled.jpg" alt="" />
+      </div>
+      <div class="f_right">
+        <div class="f_wrapper">
+          <div class="f_head">
+            <span>	BUILDING WHAT WE DO  </span>
+          </div>
+          <div class="f_content">
+            <div class="vline"></div>
+            <div class="f_text">
+              <span>
+                Quindl transforms businesses through technology. We help businesses successfully navigate digital transformation and drive real growth, drawing on the combined power of experience and contextual knowledge, across a vast ecosystem of expertise.
+              </span> <br>
+              <a href="services.html"> 
+                <button>FIND OUT</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- News Feed-->
+    <div class="heading-bia">
+      <span class="bia-heading">BELIEF IN ACTION</span>
+    </div>
+    <div class="bia_container">
+      <div class="bia_left">
+        <div class="text_wrapper">
+          <span class="bia_text"
+            >A new way for moving! 
+          </span>
+          <span class="material-symbols-outlined ar"> arrow_forward </span>
+        </div>
+        <div class="text_wrapper">
+          <span class="bia_text"
+            >Gaining Momentum with AI
+          </span>
+          <span class="material-symbols-outlined ar"> arrow_forward </span>
+        </div>
+        <div class="text_wrapper">
+          <span class="bia_text"
+            >Establishing Reputation
+          </span>
+          <span class="material-symbols-outlined ar"> arrow_forward </span>
+        </div>
+        <div class="text_wrapper">
+          <span class="bia_text"
+            >All in on Sports
+          </span>
+          <span class="material-symbols-outlined ar"> arrow_forward </span>
+        </div>
+      </div>
+      <div class="bia_right">
+        <div class="bia_right_up">
+          <div class="bia_right_content">
+            <img src="./images/bia/h10.jpg" alt="">
+            <span class="bia_right_content_text">Partnership with taxiwala</span>
+            <a href="#">
+              <span>KNOW MORE</span>
+              <span class="material-symbols-outlined"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="bia_right_content">
+            <img src="./images/bia/h11.jpg" alt="">
+            <span class="bia_right_content_text-long">AI-first offering to accelerate business value for global enterprises using generative</span>
+            <a href="#">
+              <span>KNOW MORE</span>
+              <span class="material-symbols-outlined"> arrow_forward </span>
+            </a>
+          </div>
+        </div>
+        <div class="bia_right_down">
+          <div class="bia_right_content">
+            <img src="./images/bia/h12.jpg" alt="">
+            <span class="bia_right_content_text">Moving outside Existential Reality</span>
+            <a href="#">
+              <span>KNOW MORE</span>
+              <span class="material-symbols-outlined"> arrow_forward </span>
+            </a>
+          </div>
+          <div class="bia_right_content">
+            <img src="./images/bia/h13.jpg" alt="">
+            <span class="bia_right_content_text">Getting done with Sports Infrastructure</span>
+            <a href="#">
+              <span>KNOW MORE</span>
+              <span class="material-symbols-outlined"> arrow_forward </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Connect-->
+    <div class="connect_container">
+      <div class="connect_wrapper">
+        <span>CHANGE LEADS TO TRANSFORMATION</span>
+        <div class="vline"></div>
+        <a href="contact.html">
+          <button>CONNECT WITH US</button>
+        </a>
+        
+      </div>
+    </div>
+    <!--FOOTER-->
+    <div class="footer">
+      <div class="content">
+        <div class="services">
+          <h4>Services</h4>
+          <p><a href="services.html">Acceerate</a></p>
+          <p><a href="services.html">Assure</a></p>
+          <p><a href="services.html">Data Engineering and Processing</a></p>
+          <p><a href="services.html">Experience</a></p>
+          <p><a href="services.html">Innovate</a></p>
+          <p><a href="services.html">Business Process Management</a></p>
+        </div>
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="#"><ion-icon name="logo-linkedin" class="social"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-twitter" class="social"></ion-icon></a>
+            <a href="https://www.facebook.com/codewithfaraz"
+              ><ion-icon name="logo-facebook" class="social"></ion-icon></a>
+            <a href="https://www.instagram.com/codewithfaraz"
+              ><ion-icon name="logo-instagram" class="social"></ion-icon></a>             
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="#">Home</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+          B-5, Vivekanandha nagar, 4th street, <br>Indira Garden Road, <br>Coimbatore, Tamil Nadu 641015
+
+          </p>
+          <h4 class="mobile">Mobile</h4>
+          <p><a href="tel:+919994916848">+91 9994916848</a> <br>
+            <a href="tel:+919488990998">+91 9488990998</a></p>
+            <h4 class="mail">Email</h4>
+            <p><a href="mailto:bharathraj.m@quindl.com">bharathraj.m@quindl.com</a> <br>
+              <a href="mailto:shrivathsan@quindl.com">shrivathsan@quindl.com</a></p>
+          </div>
+      </div>
+      <footer>
+        <hr />
+        © 2023 Quindl Technologies Pvt Ltd.
+      </footer>
+    </div>
+</body>
+<script src="./java/slider.js"></script>
+<script src="./java/marquee.js"></script>
+<script src="./java/commitment.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+</html>

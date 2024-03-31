@@ -425,7 +425,7 @@
     }
     .starter img {
       position: relative;
-      width: 100%;
+/*       width: 100%; */
       height: 26vh;
   }
     .text_over_photo_container{

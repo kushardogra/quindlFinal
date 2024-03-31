@@ -966,7 +966,7 @@ ion-icon{
   }
   .future_container button {
     width: 40%;
-
+    height: fit-content;
   }
 
   .connect_container .connect_wrapper span {

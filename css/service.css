@@ -420,13 +420,13 @@
 
   @media screen and (max-width:600px){
     .starter{
-      height: 26vh;
+      height: 40vh;
       object-fit: scale-down;
     }
     .starter img {
       position: relative;
 /*       width: 100%; */
-      height: 26vh;
+      height: 40vh;
   }
     .text_over_photo_container{
       display: none;
